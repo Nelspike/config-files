@@ -40,6 +40,9 @@ set history=50
 set incsearch
 set hlsearch
 
+" Enable mouse
+set mouse=a
+
 " Convert current buffer to pretty JSON
 command JSONBeautify :%!jq '.'
 
